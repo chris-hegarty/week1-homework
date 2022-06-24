@@ -6,53 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="flex space-between">
             <picture>
                 <img src="./images/placeholder-logo.png" alt="company logo">
             </picture>
-            <h1>Headline Goes Here</h1>
-            <h2>Smaller sub-headline goes here.</h2>
+            <div class="flex column">
+                <h1>Headline Goes Here</h1>
+                <h2>Smaller sub-headline goes here.</h2>
+            </div>
         </div>
         <nav>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
+            <ul class="flex space-evenly">
+                <li><a href="#">Home</a></li>
+                <li><a href="/for-sale.html">For Sale</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h3>Contact Us</h3>
-        <form action="">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name.">
-            
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email.">
-            
-            <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    <main class="flex center">
+        <div class="form-container">
+            <h3>Contact Us</h3>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name.">
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email.">
+                
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
-            <h4>Reason for Contacting:</h4>
-            
-            <input type="radio" name="contact-reason" id="reason-1">
-            <label for="reason-1">Complaint</label>
+                <h4>Reason for Contacting:</h4>
+                
+                <input type="radio" name="contact-reason" id="reason-1">
+                <label for="reason-1">Complaint</label>
 
-            <input type="radio" name="contact-reason" id="reason-2">
-            <label for="reason-2">Suggestion</label>  
-            
-            <input type="radio" name="contact-reason" id="reason-3">
-            <label for="reason-3">Question</label>
-            
-            <button type="submit">Submit</button>
-        </form>
+                <input type="radio" name="contact-reason" id="reason-2">
+                <label for="reason-2">Suggestion</label>  
+                
+                <input type="radio" name="contact-reason" id="reason-3">
+                <label for="reason-3">Question</label>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </main>
-    <footer>
+    <footer class="flex space-around">
         <section>
             <picture>
                 <img src="./images/placeholder-image.png" alt="placeholder image">
