@@ -22,14 +22,14 @@ or more media queries for each (and I recommend you do) if you have time. If you
 
 All pages should have the same menu and footer styled as follows:
 
-#### Menu:
+#### Menu: (Added note with question)
 
 - There need to be three menu items with each one linking to the other two pages.
   Note: links not rendering correctly. See screenshots.
 - The one for the page you're currently on should have a different color than the others and not link anywhere.
 - Both of the non-current links should change color when you hover over them.
 
-#### Footer:
+#### Footer: (DONE)
 
 - The Footer should have your company information (can be filler or made up) and include an image.(DONE)
 - Styling should be however you see fit but there should be whitespace between the body content and the footer (DONE)
@@ -47,14 +47,14 @@ The "Main Page" should be separated into two distinct sections and should be sty
 - The number of sub sections per row should change based off screen width.
 - Regardless of number of subsections per row, all items on each row should have the same height and should scale together as needed.
 
-#### Side Section:
+#### Side Section: (DONE, with a note and a question)
 
 - The side section should take up the remainder of the screen and be right next to the main section at larger resolutions.
-- At smaller resolutions, the side section should also take up 100% of the screen width and should be below the main section.
+- At smaller resolutions, the side section should also take up 100% of the screen width and should be below the main section. (NOTE: Fixed with flex-mobile class. Is this the best approach?)
 - It should contain _at least_ 5 sub sections taking up the full width at lower resolutions.
 - At higher resolutions the sub sections should take less width depending on how you feel it looks best.
 
-#### Both Sections:
+#### Both Sections: (DONE)
 
 - Use whatever filler text you prefer for all subsections.
 - Each subsection should have a different amount of filler text to make sure their height scales regardless of content.
