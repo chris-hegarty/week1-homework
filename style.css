@@ -33,14 +33,31 @@ h2 {
 h3, h4 {
     font-size: 1.25rem
 }
-p, li, a {
+p, li{
     font-size: 1rem;
+}
+nav a {
+    font-size: 1.5rem;
 }
 p, a {
     font-family: "Source Sans Pro", sans-serif;
 }
+a:hover {
+    color: #f88c27;
+}
 li, h3, h4, label {
     font-family: "Oswald", sans-serif;
+}
+article {
+    padding: 40px;
+    gap: 20px;
+    border-bottom: 1px solid #8a8888;
+}
+article:last-child {
+    border-bottom: none;
+}
+.product-menu ul {
+    padding-top: 40px;
 }
 
 /* Reusable CSS*/ 
