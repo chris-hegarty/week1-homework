@@ -11,6 +11,9 @@ html {
 input[type=text], input[type=email], button[type=submit], textarea {
     display: block;
 }
+h1, h2 {
+    margin: 0;
+}
 
 /* Reusable CSS*/ 
 
@@ -23,8 +26,14 @@ input[type=text], input[type=email], button[type=submit], textarea {
 .column {
     flex-direction: column;
 }
+.flex-start {
+    justify-content: flex-start;
+}
 .center {
     justify-content: center;
+}
+.flex-end {
+    justify-content: flex-end;
 }
 .space-between {
     justify-content: space-between;
