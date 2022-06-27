@@ -18,6 +18,27 @@ li {
     list-style-type: none;
 }
 
+/* Font styling:*/
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 1.5rem
+}
+h3, h4 {
+    font-size: 1.25rem
+}
+p, li, a {
+    font-size: 1rem;
+}
+p, a, h4 {
+    font-family: "Source Sans Pro", sans-serif;
+}
+li, h3, label {
+    font-family: "Oswald", sans-serif;
+}
+
 /* Reusable CSS*/ 
 
 .flex {
@@ -56,6 +77,15 @@ li {
 .margin-auto {
     margin: auto;
 }
+.playfair {
+    font-family: "Playfair Display SC", serif;
+}
+.source-sans-pro {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.oswald {
+    font-family: 'Oswald', sans-serif;
+} 
 
 /* Other CSS */
 
