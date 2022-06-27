@@ -9,7 +9,7 @@ input[type=text], input[type=email], button[type=submit], textarea {
     display: block;
 }
 
-/* Reusable classes*/ 
+/* Reusable CSS*/ 
 
 .flex {
     display: flex;
@@ -39,7 +39,20 @@ input[type=text], input[type=email], button[type=submit], textarea {
     margin: auto;
 }
 
-@media ( min-width:479px ) {
+/* Other CSS */
+
+
+/* "there should be whitespace between the body content and the footer" */
+main {
+    margin-bottom: 4px;
+}
+
+/* Begin media queries */
+
+@media ( min-width:768px ) {
+    .flex-mobile {
+        display: flex;
+    }
     .basis-75 {
         flex-basis: 75%;
     }

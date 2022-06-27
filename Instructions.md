@@ -25,20 +25,21 @@ All pages should have the same menu and footer styled as follows:
 #### Menu:
 
 - There need to be three menu items with each one linking to the other two pages.
+  Note: links not rendering correctly. See screenshots.
 - The one for the page you're currently on should have a different color than the others and not link anywhere.
 - Both of the non-current links should change color when you hover over them.
 
 #### Footer:
 
-- The Footer should have your company information (can be filler or made up) and include an image.
-- Styling should be however you see fit but there should be whitespace between the body content and the footer
+- The Footer should have your company information (can be filler or made up) and include an image.(DONE)
+- Styling should be however you see fit but there should be whitespace between the body content and the footer (DONE)
 
 ## First Page
 
-The first page will be your "Main Page" and can be named however you see fit for the links going to it.
+The first page will be your "Main Page" and can be named however you see fit for the links going to it. (DONE)
 The "Main Page" should be separated into two distinct sections and should be styled as follows.
 
-#### Main Section:
+#### Main Section: (DONE)
 
 - The main section should take up the majority of the page at larger resolutions (can be 60%-80% as you prefer)
 - At smaller resolutions it should take up the entire width of the page.
