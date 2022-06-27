@@ -1,3 +1,5 @@
+Note: Tried to git undo changes that made the "For Sale" page items into two columns. Nothing changed, though. It looked the same as the previous commit.
+
 # General Instructions:
 
 You will be building a three page website for a fictitious company.
