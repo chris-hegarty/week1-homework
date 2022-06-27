@@ -64,7 +64,7 @@ The "Main Page" should be separated into two distinct sections and should be sty
 The second Page should be an "Items for Sale Page" (named however you prefer for the links). It should be broken up
 into two distinct sections and styled as outlined below.
 
-#### Side Menu:
+#### Side Menu: (DONE)
 
 - There should be a menu on either the right or left (your choice, but be prepared to discuss why you went with one over the other)
 - It should remain a static width at all resolutions (use whatever minimum width you feel would work best)

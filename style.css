@@ -45,14 +45,23 @@ input[type=text], input[type=email], button[type=submit], textarea {
 /* Other CSS */
 
 
-/* "there should be whitespace between the body content and the footer" */
+/* -"-There should be whitespace between the body content and the footer" */
+
 main {
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
+/* "(Side menu) should remain a static width at all resolutions */
+/* -"The remainder of the page should be taken up by items for sale with a small amount of whitespace between the main section and the menu." */
+
+.product-menu {
+    min-width: 250px;
+    margin-bottom: 10px;
+}
+/*  */
 
 /* Begin media queries */
 
-@media ( min-width:768px ) {
+@media (min-width:768px ) {
     .flex-mobile {
         display: flex;
     }
@@ -61,6 +70,9 @@ main {
     }
     .basis-25 {
         flex-basis: 25%;
+    }
+    .basis-50 {
+        flex-basis: 50%;
     }
     .basis-33 {
         flex-basis: calc( 100% / 3);
