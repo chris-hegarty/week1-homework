@@ -1,7 +1,7 @@
-* {
+/* * {
     border: 1px solid grey;
     box-sizing: border-box;
-}
+} */
 html {
     scroll-behavior: smooth;
 }
@@ -11,11 +11,15 @@ html {
 input[type=text], input[type=email], button[type=submit], textarea {
     display: block;
 }
-h1, h2 {
+h1, h2, ul {
     margin: 0;
 }
 li {
     list-style-type: none;
+    padding: 10px 0;
+}
+a {
+    text-decoration: none;
 }
 
 /* Font styling:*/
@@ -32,10 +36,10 @@ h3, h4 {
 p, li, a {
     font-size: 1rem;
 }
-p, a, h4 {
+p, a {
     font-family: "Source Sans Pro", sans-serif;
 }
-li, h3, label {
+li, h3, h4, label {
     font-family: "Oswald", sans-serif;
 }
 
@@ -52,6 +56,12 @@ li, h3, label {
 }
 .gap-10 {
     gap: 10px;
+}
+.padding-10 {
+    padding: 10px;
+}
+.padding-60 {
+    padding: 60px;
 }
 .flex-start {
     justify-content: flex-start;
@@ -86,6 +96,21 @@ li, h3, label {
 .oswald {
     font-family: 'Oswald', sans-serif;
 } 
+.blue {
+    color: #05347e
+}
+.bg-blue {
+    background-color: #05347e;
+}
+.gray {
+    color: #efefef;
+}
+.bg-gray {
+    background-color: #efefef
+}
+.white {
+    color: #ffffff;
+}
 
 /* Other CSS */
 
